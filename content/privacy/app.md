@@ -1,6 +1,6 @@
 +++
 title = "Privacy Policy for the Circles app"
-date = 2024-02-05
+date = 2024-02-07
 +++
 
 
@@ -13,13 +13,15 @@ FUTO Circles ("Circles", or the "App") is a mobile app for secure social network
 
 # What Data Do We Collect, And How Do We Collect It?
 
-If you use the App to sign up for an account on a server provided by FUTO, then the <a href='/privacy.html'>Privacy Policy for circles.futo.org</a> applies to your use of that account.
+If you use the App to sign up for an account on a server provided by FUTO, then the <a href='/privacy/service/index.html'>Privacy Policy for circles.futo.org</a> applies to your use of that account.
 
 If you use the App with an account hosted on a third-party server, then there are only a few cases where FUTO may learn any information at all about your use of the App.
 
 * If you have the App configured to use Apple or Google push notifications, then FUTO's push notification gateway will be involved in delivering push notifications from Apple or Google to your device.  Push notifications include information on the Matrix event that generated the push, including: the human-readable name and Matrix user identifier for the user who sent the event and the Matrix room identifier for the room containing the event.  Android users who desire a greater level of privacy can configure the App to use UnifiedPush instead of Google Cloud Messaging.  When a user on a third-party server receives a UnifiedPush notification, FUTO does not see the notification or learn anything about it.
 
 * If you obtained the App from the Google Play Store, and the App crashes, then we will receive a Firebase crash report.
+
+* If you sign up for our mailing list in the app, then we learn your email address.
 
 
 # What Data Do We Not Collect?
@@ -42,8 +44,12 @@ FUTO collects and uses your information solely to operate and deliver the servic
 ## To improve the app:
 * To debug crashes and performance problems
 
+## To communicate with you:
+* To send you email updates about upcoming changes in the app, including important security updates
+
 ## Sharing Information with Third Parties
 * FUTO does not sell, trade, rent or lease its customer lists to any third parties. Not ever.
+* We use a third party email provider to deliver mail to our mailing list.
 * Under extreme circumstances, FUTO may disclose your personal information, without notice, if required to do so by law or in the good faith belief that such action is necessary to: (a) conform to the edicts of the law or comply with legal process served on FUTO or the site; (b) protect and defend the rights or property of FUTO; and/or (c) act under exigent circumstances to protect the personal safety of users of the Circles app, the circles.futo.org service, or the public.
 
 
@@ -84,6 +90,6 @@ legal@futo.org
 
 ---
 
-Version 1.3
+Version 1.4
 
-Effective as of Feb 5, 2024
+Effective as of Feb 7, 2024

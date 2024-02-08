@@ -11,7 +11,7 @@ The circles.futo.org service provides secure social networking, secure photo sto
 
 
 ## Privacy
-Your use of the Service is subject to FUTO's privacy policy for circles.futo.org. Please review our [Privacy Policy](/privacy), which also governs the Site and informs users of our data collection practices.
+Your use of the Service is subject to FUTO's privacy policy for circles.futo.org. Please review our [Privacy Policy](/privacy/service/), which also governs the Site and informs users of our data collection practices.
 
 
 ## Electronic Communications

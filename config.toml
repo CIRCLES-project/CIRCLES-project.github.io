@@ -28,12 +28,12 @@ highlight_code = false
 home_subtitle = "Coming soon!"
 
 hermit_menu = [
-    { link = "/privacy", name = "Privacy Policies" },
-    { link = "/terms", name = "Terms and Conditions" }
+    { link = "/privacy/index.html", name = "Privacy Policies" },
+    { link = "/terms/index.html", name = "Terms and Conditions" }
 ]
 
 hermit_social = [
-    { name = "twitter", link = "https://twitter.com" },
+    { name = "twitter", link = "https://twitter.com/hackermath" },
     { name = "github", link = "https://github.com/futo-org" },
     { name = "email", link = "mailto:circles@futo.org" }
 ]
