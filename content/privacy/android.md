@@ -1,6 +1,7 @@
 +++
 title = "Privacy Policy for Circles Android"
 date = 2024-02-14
+description = "Privacy policy for the Android version of the Circles app"
 +++
 
 

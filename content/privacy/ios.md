@@ -1,6 +1,7 @@
 +++
 title = "Privacy Policy for Circles iOS"
 date = 2024-02-14
+description = "Privacy policy for the iOS version of the Circles app"
 +++
 
 

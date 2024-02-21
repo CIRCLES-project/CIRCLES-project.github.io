@@ -1,6 +1,7 @@
 +++
 title = "Privacy Policy for circles.futo.org"
 date = 2024-02-05
+description = "Privacy policy for accounts hosted on FUTO servers"
 +++
 
 This document lets you know exactly what information we collect from you, what data we can observe as you use the service, and how we use that information.
