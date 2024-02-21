@@ -1,7 +1,3 @@
-+++
-title = "Terms and Conditions for circles.futo.org"
-+++
-
 ## Agreement between User and FUTO
 Welcome to Circles. The circles.futo.org service (the "Service") is comprised of various internet servers operated by FUTO Holdings, Inc ("FUTO") under the circles.futo.org domain and various subdomains, including eu.circles.futo.org. The Service is offered to you conditioned on your acceptance without modification of the terms, conditions, and notices contained herein (the "Terms"). Your use of the Service constitutes your agreement to all such Terms. Please read these terms carefully, and keep a copy of them for your reference.
 

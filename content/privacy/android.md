@@ -1,6 +1,6 @@
 +++
-title = "Privacy Policy for the Circles app"
-date = 2024-02-07
+title = "Privacy Policy for Circles Android"
+date = 2024-02-14
 +++
 
 
@@ -17,7 +17,7 @@ If you use the App to sign up for an account on a server provided by FUTO, then 
 
 If you use the App with an account hosted on a third-party server, then there are only a few cases where FUTO may learn any information at all about your use of the App.
 
-* If you have the App configured to use Apple or Google push notifications, then FUTO's push notification gateway will be involved in delivering push notifications from Apple or Google to your device.  Push notifications include information on the Matrix event that generated the push, including: the human-readable name and Matrix user identifier for the user who sent the event and the Matrix room identifier for the room containing the event.  Android users who desire a greater level of privacy can configure the App to use UnifiedPush instead of Google Cloud Messaging.  When a user on a third-party server receives a UnifiedPush notification, FUTO does not see the notification or learn anything about it.
+* If you have the App configured to use Google push notifications, then FUTO's push notification gateway will be involved in delivering push notifications from Google to your device.  Push notifications include information on the Matrix event that generated the push, including: the human-readable name and Matrix user identifier for the user who sent the event and the Matrix room identifier for the room containing the event.  Users who desire a greater level of privacy can configure the App to use UnifiedPush instead of Google Cloud Messaging.  When a user on a third-party server receives a UnifiedPush notification through their third-party push server, FUTO does not see the notification or learn anything about it.
 
 * If you obtained the App from the Google Play Store, and the App crashes, then we will receive a Firebase crash report.
 
@@ -37,9 +37,8 @@ FUTO does not collect any information on your use of other web sites or other ap
 
 FUTO collects and uses your information solely to operate and deliver the services that you have requested. We may use your information as follows.
 
-
 ## To deliver the service to you:
-* To deliver Apple or Google push notifications to your device
+* To deliver push notifications to your device
 
 ## To improve the app:
 * To debug crashes and performance problems
@@ -90,6 +89,6 @@ legal@futo.org
 
 ---
 
-Version 1.4
+Version 1.5
 
-Effective as of Feb 7, 2024
+Effective as of Feb 14, 2024
