@@ -15,7 +15,7 @@ compile_sass = true
 build_search_index = false
 
 # Theme
-theme = "hermit_zola"
+theme = "circles"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -27,9 +27,10 @@ highlight_code = false
 
 home_subtitle = "Coming soon!"
 
-hermit_menu = [
-    { link = "/privacy/index.html", name = "Privacy Policies" },
-    { link = "/terms/index.html", name = "Terms and Conditions" }
+menu = [
+    { link = "about/", name = "About" },
+    { link = "privacy/", name = "Privacy" },
+    { link = "terms/", name = "Terms" }
 ]
 
 hermit_social = [
