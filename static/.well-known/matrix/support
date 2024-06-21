@@ -1,0 +1,9 @@
+{
+    "contacts": [
+        {
+            "email_address": "cvwright@futo.org",
+            "matrix_id": "@cvwright:futo.org",
+            "role": "admin"
+        }
+    ]
+}
