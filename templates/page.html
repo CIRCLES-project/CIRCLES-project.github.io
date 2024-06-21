@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block opengraph %}
+  <meta property="og:title" content="{{ page.title | safe }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ page.permalink | safe }}">
+{% endblock opengraph %}
+{% block content %}
+<div class="h1">{{ page.title }}</div>
+<div class="body">
+{{ page.content | safe }}
+</div>
+{% endblock content %}

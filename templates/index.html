@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block opengraph %}
+  <meta property="og:title" content="{{ config.title | safe }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ config.base_url | safe }}">
+  {% if config.extra.default_og_image %}
+  <meta property="og:image" content="{{ get_url(path=config.extra.default_og_image) }}">
+  <meta property="twitter:image" content="{{ get_url(path=config.extra.default_og_image) }}">
+  {% endif %}
+{% endblock opengraph %}
+{% block content %}
+    <section id="hero" class="section-hero">
+      <div class="content-wrapper">
+        <div class="hero-text">Secure your social network</div>
+        <div class="text-paragraph">We wanted the social features of Facebook with the security and privacy of Signal, so we built Circles.</div>
+        <div class="text-paragraph">Circles helps you stay connected with family, friends, and your community, all with the safety of end-to-end encryption.</div>
+        <a href="#download" target="_blank" class="link-block w-inline-block">
+          <div class="cta-main">
+            <div class="cta-label">Get the FUTO Circles app</div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section id="social-privacy" class="section">
+      <div class="text-container">
+        <div class="h1">Protect your little ones</div>
+        <div class="text-paragraph">Share your moments, thoughts, and memories safely with those closest to you, without worrying about who else can see.</div>
+      </div><img src="images/section-ipad-photos.png" loading="lazy" sizes="(max-width: 991px) 100vw, 1000px" srcset="images/section-ipad-photos-p-500.png 500w, images/section-ipad-photos-p-800.png 800w, images/section-ipad-photos-p-1080.png 1080w, images/section-ipad-photos.png 1650w" alt="" class="img-section">
+    </section>
+    <section id="family-friends" class="section">
+      <div class="text-container">
+        <div class="h1">Keep your friends and family close</div>
+        <div class="text-paragraph">Post to your timeline to share with all of your people in one place.</div>
+      </div><img src="images/section-three-iphones.png" loading="lazy" sizes="(max-width: 991px) 100vw, 1000px" srcset="images/section-three-iphones-p-500.png 500w, images/section-three-iphones-p-800.png 800w, images/section-three-iphones-p-1080.png 1080w, images/section-three-iphones-p-1600.png 1600w, images/section-three-iphones.png 2200w" alt="" class="img-section">
+    </section>
+    <section id="community" class="section">
+      <div class="text-container">
+        <div class="h1">Engage with your community</div>
+        <div class="text-paragraph">Connect with neighbors, coworkers, and friends from every sphere of life.</div>
+      </div><img src="images/section-3.png" loading="lazy" sizes="(max-width: 991px) 100vw, 1000px" srcset="images/section-3-p-500.png 500w, images/section-3-p-800.png 800w, images/section-3-p-1080.png 1080w, images/section-3-p-1600.png 1600w, images/section-3-p-2200.png 2200w" alt="" class="img-section">
+    </section>
+    <section id="no-ads" class="section">
+      <div class="text-container">
+        <div class="h1">No ads. No tracking. No BS.</div>
+        <div class="text-paragraph">Circles doesn't track you and doesn't show you ads.<br>We work for you, not for advertisers.</div>
+        <div class="text-paragraph">Your data belongs to you.<br>You can never be locked in to a single provider.</div>
+      </div>
+    </section>
+    <section id="trust" class="section">
+      <div class="text-container">
+        <div class="h1">Tech you can trust</div>
+        <div class="text-paragraph">All posts in Circles are encrypted using the same cryptography from state-of-the-art secure messaging tools like Signal and Matrix.</div>
+        <div class="text-paragraph">The code is <a href="https://gitlab.futo.org/circles">open source</a> and uses open standard protocols from <a href="https://matrix.org/">Matrix</a>.</div>
+      </div>
+    </section>
+    <div id="download" class="section-downoad">
+      <div class="download-content">
+        <div class="h1-copy">Get the FUTO Circles app</div>
+        <div class="download-buttons">
+          <a href="https://apps.apple.com/us/app/futo-circles/id6451446720" target="_blank" class="w-inline-block"><img src="images/download-appstore.svg" loading="lazy" width="135" height="40" alt="" class="download-appstore"></a>
+          <a href="https://play.google.com/store/apps/details?id=org.futo.circles&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&amp;pli=1" target="_blank" class="w-inline-block"><img src="images/download-googleplay.svg" loading="lazy" width="135.00083923339844" height="40" alt="" class="download-googleplay"></a>
+          <a href="https://f-droid.org/en/packages/org.futo.circles/" target="_blank" class="w-inline-block"><img src="images/download-fdriod.svg" loading="lazy" width="134.2857208251953" height="40" alt="" class="download-fdroid"></a>
+        </div>
+      </div>
+    </div>
+{% endblock content %}

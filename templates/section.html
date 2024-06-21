@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block opengraph %}
+  <meta property="og:title" content="{{ section.title | safe }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ section.permalink | safe }}">
+{% endblock opengraph %}
+{% block content %}
+<div class="h1">{{ section.title }}</div>
+
+{% for year, pages in section.pages | group_by(attribute="year") %}
+    <ul class="w-list-unstyled">
+    {% for page in pages %}
+        <li>
+        <a href="{{ page.permalink }}" target="_blank" class="link-block w-inline-block">
+            <div class="h2">
+                <h3>{{ page.title }}</h3>
+            </div>
+        </a>
+        <div class="h2">{{ page.date }}</div>
+        <div class="text-paragraph">{{ page.description }}</div>
+        </li>
+    {% endfor %}
+    </ul>
+{% endfor %}
+
+{% endblock content %}

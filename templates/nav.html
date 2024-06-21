@@ -1,0 +1,16 @@
+    <div data-animation="default" class="main-nav w-nav" data-easing2="ease" data-easing="ease" data-collapse="tiny" role="banner" data-duration="400" id="nav" data-doc-height="1">
+      <div class="nav-wrapper w-container">
+        <a href="/#" class="nav-logo w-nav-brand"><img src="/images/circles-logo-web.svg" loading="lazy" height="44" alt="" class="image"></a>
+        <nav role="navigation" class="nav-wrapper-menu w-nav-menu">
+          <div class="link-group-2">
+            {% for s in config.extra.menu %}
+            <a href="{{config.base_url ~ s.link}}" class="nav-button w-nav-link">{{s.name}}</a>
+            {% endfor %}
+          </div>
+          <a href="{{config.base_url}}#download" class="cta-main w-nav-link"><span class="text-span">Get the app</span></a>
+        </nav>
+        <div class="menu-button w-nav-button">
+          <div class="icon-3 w-icon-nav-menu"></div>
+        </div>
+      </div>
+    </div>
