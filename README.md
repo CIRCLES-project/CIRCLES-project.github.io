@@ -1,4 +1,4 @@
-# Circles Marketing Site
+# Circles Site
 
 ## Getting Started
 
