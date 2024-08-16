@@ -1,10 +1,6 @@
 +++
-title = "About FUTO Circles"
+title = "About Circles"
 +++
-
-## About FUTO
-FUTO is a new kind of tech company, dedicated to giving users control over their technology.
-Learn more at our main web site [futo.org](https://futo.org/).
 
 ## About Circles
 Circles is a secure social network app.
