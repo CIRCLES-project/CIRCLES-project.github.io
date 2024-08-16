@@ -21,12 +21,3 @@ this creates a ./public directory containing site
 `Web server is available at http://127.0.0.1:1111/ (bound to 127.0.0.1:1111)`
 
 Open web site in local browser, view and edit!
-
-## Deployment
-
-requires Cloudflare Wrangler & node,npm
-
-``` sh
-zola build
-wrangler pages deploy --project-name circles-futo-org ./public
-```
