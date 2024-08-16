@@ -1,1 +1,0 @@
-{"applinks": {"details": [{"appIDs": ["2W7AC6T8T5.org.futo.circles"], "components": [{"/": "/profile/*", "comment": "User profiles"}, {"/": "/group/*", "comment": "Groups"}, {"/": "/gallery/*", "comment": "Photo galleries"}, {"/": "/timeline/*", "comment": "Circle timelines"}]}]}, "webcredentials": {"apps": ["2W7AC6T8T5.org.futo.circles"]}}
