@@ -4,10 +4,10 @@
         <nav role="navigation" class="nav-wrapper-menu w-nav-menu">
           <div class="link-group-2">
             {% for s in config.extra.menu %}
-            <a href="{{s.link}}" class="nav-button w-nav-link">{{s.name}}</a>
+            <a href="{{config.base_url ~ s.link}}" class="nav-button w-nav-link">{{s.name}}</a>
             {% endfor %}
           </div>
-          <a href="#download" class="cta-main w-nav-link"><span class="text-span">Get the app</span></a>
+          <a href="{{config.base_url}}#download" class="cta-main w-nav-link"><span class="text-span">Get the app</span></a>
         </nav>
         <div class="menu-button w-nav-button">
           <div class="icon-3 w-icon-nav-menu"></div>
