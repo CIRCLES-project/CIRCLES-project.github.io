@@ -27,7 +27,8 @@ highlight_code = false
 home_subtitle = "Coming soon!"
 
 menu = [
-    { link = "about/", name = "About" }
+    { link = "about/", name = "About" },
+    { link = "privacy/", name = "Privacy" }
 ]
 
 hermit_social = [
